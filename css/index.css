@@ -1,0 +1,58 @@
+body {
+  height: 5000px;
+  bacakground-color: rgb(180, 223, 180);
+}
+nav {  
+    background-color: rgb(176, 197, 221);     
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+}
+.navigation {
+  display: inline-block;
+
+}
+.h1{
+  font-size: 24px;
+  color: black;
+}
+.h2 {
+  font-size: 18 px;
+  color:dodgerblue;
+}
+
+.left {
+  width: 50%;
+  background-color: purple;
+}
+.right {
+  width: 50%;
+  background-color: green;
+}
+.relative {
+  background-color: rgb(174, 199, 207);
+  height: 250px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  position: relative;
+}
+.absolute {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fixed {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
