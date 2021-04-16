@@ -1,19 +1,23 @@
 body {
-  height: 5000px;
-  bacakground-color: rgb(180, 223, 180);
+  background-color: rgb(232, 238, 240);
 }
 nav {  
     background-color: rgb(176, 197, 221);     
-    height: 30px;  
-    display: flex;  
-    align-items: center;  
-    text-align: center;
-    padding: 12px;
-    font-size: 18px;
+
 }
 .navigation {
   display: inline-block;
-
+  height: 30px;    
+  align-items: center;  
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+}
+.navigation a {
+font-style: oblique;
+}
+img{
+  width: 150px;
 }
 .h1{
   font-size: 24px;
